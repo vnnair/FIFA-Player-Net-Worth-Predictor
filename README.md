@@ -1,3 +1,3 @@
-# golden-kicker
+# Golden-Kicker
 
 This is an exploratory analysis of the FIFA 2019 dataset from Kaggle. We wanted to discover what features of soccer players contribute the most to worth. In order to do so, we first used basic plots to get a rough estimate of how the statistics of the supposed top 5 international teams stack up against each other. Then, eigenvalue decomposition methods were implemented to reduce dimensionality in order to isolate variables that are the most influential in a player's worth. Having this information at hand, a basic neural network was created to feed in these variables and predict a player's worth.
